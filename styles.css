@@ -1,0 +1,78 @@
+body{
+  background-image:url(https://static.vecteezy.com/system/resources/previews/010/803/399/original/background-with-colorful-shopping-bags-illustration-sale-and-discount-concept-vector.jpg);
+  background-size: cover;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding:20px;
+  color: #0A1B2E;
+ 
+}
+
+
+h1{
+  margin: 1em auto;
+  text-align: center;
+  font-style: italic;
+  font-size: 3rem;
+}
+#description{
+  margin: 1em auto;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.survey_form{
+  width:50%;
+  margin-left:19em;
+  margin-right:10em;
+  padding:20px;
+  background-color:rgba(60, 53, 88, 0.5);
+}
+ fieldset{
+  border:none;
+  padding: 2rem 0;
+ }
+legend{
+  padding-top:20px;
+  font-size: 20px;
+  font-weight: 700;
+  
+}
+.details{
+  display: block;
+  margin-left:10px;
+  font-size:16px;
+}
+
+input,
+textarea,
+#dropdown{
+margin: 10px 0 0 0;
+width: 100%;
+min-height: 2em;
+}
+input::placeholder,textarea::placeholder{
+color:#ffffff
+}
+input, textarea {
+background-color: #717197;
+border: 1px solid #0a0a23;
+color: #ffffff;
+}
+
+.inline{
+display:inline;
+width: unset;
+margin: 0 0.5em 0 0;
+vertical-align: middle;
+}
+input[type="submit"] {
+display: block;
+width: 60%;
+margin: 1em auto;
+height: 2em;
+font-size: 1.1rem;
+background-color: #3b3b4f;
+border-color: white;
+min-width: 300px;
+}

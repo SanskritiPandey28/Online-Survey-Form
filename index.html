@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping Survey Form</title>
+    <link rel="stylesheet" href="stylesheet/styles.css">
+</head>
+<body>
+    <h1 id="title">Online Shopping Survey Form</h1>
+    <p id="description">Help Us Improve: Take Our Quick Survey!</p>
+    <form action="https://httpbin.org/get" method="get" id="survey-form" class="survey_form">
+    <fieldset>
+        <legend>Personal Details</legend>
+    <label for="name">Name: <input type="text" id="name" placeholder="Enter Your Name" required class="details"></label>
+    <label for="email">Email: <input type="email" id="email" placeholder="Enter Your Email" required class="details"></label>
+    <label for="phonenumber">Phone Number: <input type="phonenumber" id="phonenumber" placeholder="+919999999999" required maxlength="10"class="details"></label>
+    </fieldset>
+    <fieldset>
+        <legend>What kind of products do you shop for the most?</legend>
+        <p>
+            <input type="checkbox" name="products" id="electronics" value="electronics" class="inline">
+            <label for="electronics">Electronics</label>
+
+        </p>
+        <p>
+            <input type="checkbox" name="products" id="groceries" value="groceries" class="inline">
+           
+            <label for="groceries">Groceries</label>
+
+        </p>
+        
+        <p>
+            <input type="checkbox" name="products" id="clothes" value="clothes" class="inline">
+            <label for="clothes">Clothes</label>
+
+        </p>
+        <p>
+            <input type="checkbox" name="products" id="footwears" value="footwears" class="inline">
+            <label for="footwears">Footwears</label>
+
+        </p>
+        <p>
+            <input type="checkbox" name="products" id="showcases" value="showcases" class="inline">
+             <label for="showcases">Showcases</label>
+
+        </p>
+    <fieldset>
+        <legend>How often do you shop online?</legend>
+        <p>
+            <input type="radio" name="shopping_freuency" id="weekly" value="weekly" class="inline">
+            <label for="weekly">Weekly</label>
+
+        </p>
+        <p>
+            <input type="radio" name="shopping_freuency" id="monthly" value="monthly" class="inline" >
+            <label for="monthly">Monthly</label>
+
+        </p>
+        <p>
+            <input type="radio" name="shopping_freuency" id="rarely" value="rarely" class="inline">
+            <label for="rarely">Rarely</label>
+
+        </p>
+    </fieldset>
+    </fieldset>
+    <fieldset>
+        <legend>Customer Experience</legend>
+        <label for="shopping_experience">Overall Shopping Experience: <input type="number" id="shopping_experience" min="1" max="10" required></label>
+        <label for="dropdown">Rate the delivery process:
+            <select id="dropdown" name="dropdown">
+              <option value="">(select one)</option>
+              <option value="1">Excellent</option>
+              <option value="2">Good</option>
+              <option value="3">Average</option>
+              <option value="4">Poor</option>
+            </select>
+          </label>
+    </fieldset>
+    <fieldset>
+        <label for="feedback">Provide your suggestion and feedback:
+            <textarea id="feedback" name="feedback" rows="4" cols="40" placeholder="Tell us what you liked or what could be better"></textarea>
+          </label>
+    </fieldset>
+    <input type="submit" value="Submit">
+    </form> 
+</body>
+</html>
